@@ -603,58 +603,8 @@ else
   echo "Creating task-hub.json..."
   cat > "$TASK_DIR/task-hub.json" << 'JSONEOF'
 {
-  "tasks": [
-    {
-      "id": "t-20260101-001",
-      "title": "Organize vault notes into PARA folders",
-      "status": "pending",
-      "priority": "high",
-      "category": "work",
-      "created": "2026-01-01T09:00:00",
-      "completed": null,
-      "source": "session",
-      "details": "Move uncategorized notes from root into proper PARA folders (1_AI and IT, 2_Project, etc.)",
-      "prompt": "Help me organize my vault notes. Read the root folder, identify notes that belong in PARA folders, and move them with proper YAML frontmatter.",
-      "output": ""
-    },
-    {
-      "id": "t-20260101-002",
-      "title": "Learn how to use Claude Code skills",
-      "status": "pending",
-      "priority": "medium",
-      "category": "learning",
-      "created": "2026-01-01T10:00:00",
-      "completed": null,
-      "source": "session",
-      "details": "Explore available skills and practice using 2-3 of them in real tasks",
-      "prompt": "Show me a list of available Claude Code skills and help me practice using the most useful ones for my vault management workflow.",
-      "output": ""
-    },
-    {
-      "id": "t-20260101-003",
-      "title": "Write first AI Diary entry",
-      "status": "done",
-      "priority": "low",
-      "category": "content",
-      "created": "2026-01-01T08:00:00",
-      "completed": "2026-01-01T11:30:00",
-      "source": "dashboard",
-      "details": "Write a short reflection about setting up my Second Brain",
-      "prompt": "",
-      "output": ""
-    }
-  ],
-  "handoffs": [
-    {
-      "id": "h-20260101-001",
-      "title": "Vault Setup Continuation",
-      "file": "handoff/2026-01-01_vault-setup-handoff.md",
-      "status": "pending",
-      "created": "2026-01-01",
-      "completed": null,
-      "summary": "Initial vault structure created. Next: add YAML frontmatter to remaining notes, set up MOC files, and configure daily workflow."
-    }
-  ]
+  "tasks": [],
+  "handoffs": []
 }
 JSONEOF
 fi
